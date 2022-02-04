@@ -1,0 +1,56 @@
+/* Untuk Laptop */
+
+@media (max-width: 1000px) {
+	.header-right {
+		display: none;
+	}
+	  
+	.menu-icon {
+		display: block;
+	}
+	.top-wrapper h1 {
+		font-size: 32px;
+	}
+}
+
+/* Untuk Handphone */
+
+@media (max-width: 670px) {
+	.container{
+		text-align: center;
+	}
+	footer ul li{
+		text-align: center;
+	}
+	.li-right{
+		display: none;
+	}
+	.header-right {
+		display: none;
+	}
+	  
+	.menu-icon {
+		display: block;
+	}
+	.btn {
+		width: 100%;
+	}
+	
+	.read {
+		margin-bottom: 10px;
+	}
+	  
+	.top-wrapper {
+		text-align: left;
+	}
+	  
+	.top-wrapper h1 {
+		font-size: 24px;
+		line-height: 36px;
+	}
+	  
+	.top-wrapper p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+}
